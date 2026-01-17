@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import json, sys, os; data = json.load(sys.stdin); file_path = data.get('tool_input', {}).get('file_path', ''); ext = os.path.splitext(file_path)[1].lower(); print(f'File created/modified: {file_path}', file=sys.stderr) if ext in ['md', 'canvas', 'base'] else None\"",
+            "once": false
+          }
+        ]
+      }
+    ]
+  }
+}

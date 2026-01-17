@@ -1,0 +1,20 @@
+{
+  "name": "obsidian-assistant",
+  "description": "AI-powered Obsidian note and knowledge management assistant with commands, agents, and skills for creating, summarizing, and visualizing notes",
+  "version": "0.2.0",
+  "author": {
+    "name": "Obsidian Assistant",
+    "email": "wh1tecat@protonmail.com"
+  },
+  "homepage": "https://github.com/arch3rPro/claude-obsidian-plugin",
+  "repository": "https://github.com/arch3rPro/claude-obsidian-plugin",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "notes",
+    "markdown",
+    "knowledge-management",
+    "canvas",
+    "productivity"
+  ]
+}

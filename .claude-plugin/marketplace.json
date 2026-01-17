@@ -1,0 +1,43 @@
+{
+  "name": "claude-obsidian-plugin",
+  "owner": {
+    "name": "arch3rPro"
+  },
+  "metadata": {
+    "description": "AI-powered Obsidian note and knowledge management assistant plugin for Claude Code",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "obsidian-assistant",
+      "source": {
+        "source": "github",
+        "repo": "arch3rPro/claude-obsidian-plugin"
+      },
+      "description": "AI-powered Obsidian note and knowledge management assistant with commands, agents, and skills for creating, summarizing, and visualizing notes",
+      "version": "0.2.0",
+      "author": {
+        "name": "Obsidian Assistant"
+      },
+      "homepage": "https://github.com/arch3rPro/claude-obsidian-plugin",
+      "repository": "https://github.com/arch3rPro/claude-obsidian-plugin",
+      "license": "MIT",
+      "keywords": [
+        "obsidian",
+        "notes",
+        "markdown",
+        "knowledge-management",
+        "canvas",
+        "productivity"
+      ],
+      "category": "productivity",
+      "tags": [
+        "ai",
+        "assistant",
+        "obsidian",
+        "markdown",
+        "canvas"
+      ]
+    }
+  ]
+}
