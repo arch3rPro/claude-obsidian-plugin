@@ -10,7 +10,10 @@
   "plugins": [
     {
       "name": "obsidian-assistant",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "arch3rPro/claude-obsidian-plugin"
+      },
       "description": "AI-powered Obsidian note and knowledge management assistant with commands, agents, and skills for creating, summarizing, and visualizing notes",
       "version": "0.2.0",
       "author": {
